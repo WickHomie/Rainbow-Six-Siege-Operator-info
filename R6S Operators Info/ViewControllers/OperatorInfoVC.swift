@@ -17,7 +17,7 @@ class OperatorInfoVC: UIViewController {
     @IBOutlet weak var birthdayOperator: UILabel!
     @IBOutlet weak var birthplaceOperator: UILabel!
     
-    var attackInfo: Attack!
+    var operatorInfo: Operators!
     
 
     override func viewDidLoad() {
@@ -27,13 +27,13 @@ class OperatorInfoVC: UIViewController {
         backgroundImage.image = UIImage(named: "background5")
         self.view.insertSubview(backgroundImage, at: 0)
         
-        imageOperator.image = UIImage(named: attackInfo.imageFull)
-        birthdayOperator.text = attackInfo.birthday
-        birthplaceOperator.text = attackInfo.birthplace
-        personalInfoOperator.text = "\(attackInfo.fullName)"
-        healthLevel.text = attackInfo.health
-        speedLevel.text = attackInfo.speed
-        biographyOperator.text = attackInfo.bio
+        imageOperator.image = UIImage(named: operatorInfo.imageFull)
+        birthdayOperator.text = operatorInfo.birthday
+        birthplaceOperator.text = operatorInfo.birthplace
+        personalInfoOperator.text = "\(operatorInfo.fullName)"
+        healthLevel.text = operatorInfo.health
+        speedLevel.text = operatorInfo.speed
+        biographyOperator.text = operatorInfo.bio
 
 
     }

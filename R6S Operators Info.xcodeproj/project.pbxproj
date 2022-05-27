@@ -8,36 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		312544C22834FAE900BF5C88 /* OperatorInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312544C12834FAE900BF5C88 /* OperatorInfoVC.swift */; };
-		314A8D6A282E55800031AA1D /* Attack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A8D69282E55800031AA1D /* Attack.swift */; };
-		314A8D6C282E558C0031AA1D /* Defend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A8D6B282E558C0031AA1D /* Defend.swift */; };
+		314A8D6A282E55800031AA1D /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A8D69282E55800031AA1D /* Operators.swift */; };
 		317987D1282B9AD60015A719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317987D0282B9AD60015A719 /* AppDelegate.swift */; };
 		317987D3282B9AD60015A719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317987D2282B9AD60015A719 /* SceneDelegate.swift */; };
-		317987D5282B9AD60015A719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317987D4282B9AD60015A719 /* ViewController.swift */; };
+		317987D5282B9AD60015A719 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317987D4282B9AD60015A719 /* MainVC.swift */; };
 		317987D8282B9AD60015A719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317987D6282B9AD60015A719 /* Main.storyboard */; };
 		317987DA282B9AD90015A719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317987D9282B9AD90015A719 /* Assets.xcassets */; };
 		317987DD282B9AD90015A719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317987DB282B9AD90015A719 /* LaunchScreen.storyboard */; };
 		317987E5282CF4060015A719 /* OperatorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317987E4282CF4060015A719 /* OperatorsVC.swift */; };
-		31C418A0282E8C74007522BB /* DefendVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4189F282E8C74007522BB /* DefendVc.swift */; };
 		31D6D0B028322BA9008E951E /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D6D0AF28322BA9008E951E /* Gradient.swift */; };
-		31DC65F7283FBBC200F4907D /* DefendInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC65F6283FBBC200F4907D /* DefendInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		312544C12834FAE900BF5C88 /* OperatorInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OperatorInfoVC.swift; path = "R6S Operators Info/ViewControllers/OperatorInfoVC.swift"; sourceTree = SOURCE_ROOT; };
-		314A8D69282E55800031AA1D /* Attack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attack.swift; sourceTree = "<group>"; };
-		314A8D6B282E558C0031AA1D /* Defend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defend.swift; sourceTree = "<group>"; };
+		314A8D69282E55800031AA1D /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		317987CD282B9AD60015A719 /* R6S Operators Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R6S Operators Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		317987D0282B9AD60015A719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		317987D2282B9AD60015A719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		317987D4282B9AD60015A719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		317987D4282B9AD60015A719 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		317987D7282B9AD60015A719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		317987D9282B9AD90015A719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		317987DC282B9AD90015A719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		317987DE282B9AD90015A719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		317987E4282CF4060015A719 /* OperatorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsVC.swift; sourceTree = "<group>"; };
-		31C4189F282E8C74007522BB /* DefendVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefendVc.swift; sourceTree = "<group>"; };
 		31D6D0AF28322BA9008E951E /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
-		31DC65F6283FBBC200F4907D /* DefendInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefendInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +48,7 @@
 		314A8D6D282E55990031AA1D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				314A8D69282E55800031AA1D /* Attack.swift */,
-				314A8D6B282E558C0031AA1D /* Defend.swift */,
+				314A8D69282E55800031AA1D /* Operators.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,11 +86,9 @@
 		317987E6282CF4510015A719 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				317987D4282B9AD60015A719 /* ViewController.swift */,
+				317987D4282B9AD60015A719 /* MainVC.swift */,
 				317987E4282CF4060015A719 /* OperatorsVC.swift */,
-				31C4189F282E8C74007522BB /* DefendVc.swift */,
 				312544C12834FAE900BF5C88 /* OperatorInfoVC.swift */,
-				31DC65F6283FBBC200F4907D /* DefendInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -208,14 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				317987E5282CF4060015A719 /* OperatorsVC.swift in Sources */,
-				317987D5282B9AD60015A719 /* ViewController.swift in Sources */,
+				317987D5282B9AD60015A719 /* MainVC.swift in Sources */,
 				312544C22834FAE900BF5C88 /* OperatorInfoVC.swift in Sources */,
 				317987D1282B9AD60015A719 /* AppDelegate.swift in Sources */,
-				31C418A0282E8C74007522BB /* DefendVc.swift in Sources */,
 				317987D3282B9AD60015A719 /* SceneDelegate.swift in Sources */,
-				314A8D6C282E558C0031AA1D /* Defend.swift in Sources */,
-				314A8D6A282E55800031AA1D /* Attack.swift in Sources */,
-				31DC65F7283FBBC200F4907D /* DefendInfoVC.swift in Sources */,
+				314A8D6A282E55800031AA1D /* Operators.swift in Sources */,
 				31D6D0B028322BA9008E951E /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
 
     @IBOutlet var attackButton: UIButton!
     @IBOutlet var defendButton: UIButton!
@@ -50,6 +50,22 @@ class ViewController: UIViewController {
         
         
         
+    }
+    
+    private var model = Operators.getAttack()
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showOperators" {
+            guard let operatorsVC = segue.destination as? OperatorsVC else { return }
+            operatorsVC.operators = model.filter { attack in
+                attack.status == "Attack"
+            }
+        } else if segue.identifier == "showDefends" {
+            guard let defendsVC = segue.destination as? OperatorsVC else { return }
+            defendsVC.operators = model.filter { defend in
+                defend.status == "Defend"
+            }
+        }
     }
     
     @IBAction func attackButtonPressed(_ sender: UIButton) {

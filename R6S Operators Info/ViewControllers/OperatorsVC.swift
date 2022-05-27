@@ -9,9 +9,8 @@ import UIKit
 
 class OperatorsVC: UITableViewController {
     
-
-    var attack = Attack.getAttack()
-
+    var operators = Operators.getAttack()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,13 +25,13 @@ class OperatorsVC: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        attack.count
+        operators.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "operatorsList", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        let operatorAttack = attack[indexPath.row]
+        let operatorAttack = operators[indexPath.row]
        
         content.textProperties.font = UIFont.systemFont(ofSize: 30)
         content.text = operatorAttack.name
@@ -44,10 +43,10 @@ class OperatorsVC: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let attackInfoVC = segue.destination as? OperatorInfoVC else { return }
+        guard let operatorInfoVC = segue.destination as? OperatorInfoVC else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        let attack = attack[indexPath.row]
-        attackInfoVC.attackInfo = attack
+        let attack = operators[indexPath.row]
+        operatorInfoVC.operatorInfo = attack
     }
 
 }
