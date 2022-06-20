@@ -20,6 +20,7 @@ class OperatorsVC: UITableViewController {
         tableView.backgroundView = UIImageView(image: image)
         tableView.tintColor = .black
         
+        
     }
 
     // MARK: - Table view data source

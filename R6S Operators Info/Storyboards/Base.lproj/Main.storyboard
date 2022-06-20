@@ -44,7 +44,6 @@
                                             <fontDescription key="titleFontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="32"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="attackButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k8c-iT-C50"/>
                                             <segue destination="keZ-G2-Gat" kind="show" identifier="showOperators" id="ikR-sE-5sI"/>
                                         </connections>
                                     </button>
@@ -56,7 +55,6 @@
                                             <fontDescription key="titleFontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="32"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="defendButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bRW-95-k8G"/>
                                             <segue destination="keZ-G2-Gat" kind="show" identifier="showDefends" id="fD8-lR-HPJ"/>
                                         </connections>
                                     </button>
@@ -254,13 +252,13 @@
                         <viewLayoutGuide key="safeArea" id="0ie-k1-fDj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0ie-k1-fDj" firstAttribute="trailing" secondItem="grh-bR-UnN" secondAttribute="trailing" constant="16" id="LIa-ey-Gf6"/>
+                            <constraint firstItem="0ie-k1-fDj" firstAttribute="trailing" secondItem="grh-bR-UnN" secondAttribute="trailing" constant="16" id="DzB-Wg-nnl"/>
                             <constraint firstItem="0ie-k1-fDj" firstAttribute="trailing" secondItem="1UL-Hk-Iye" secondAttribute="trailing" constant="16" id="SDH-2v-jRv"/>
                             <constraint firstItem="awJ-ii-zHg" firstAttribute="height" secondItem="VmP-Ap-JAg" secondAttribute="height" multiplier="0.257109" id="YkK-Jj-dyY"/>
-                            <constraint firstItem="grh-bR-UnN" firstAttribute="top" secondItem="1UL-Hk-Iye" secondAttribute="bottom" constant="10" id="afs-TM-72Q"/>
                             <constraint firstItem="1UL-Hk-Iye" firstAttribute="top" secondItem="0ie-k1-fDj" secondAttribute="top" id="ia5-EI-BEC"/>
                             <constraint firstItem="1UL-Hk-Iye" firstAttribute="leading" secondItem="0ie-k1-fDj" secondAttribute="leading" constant="16" id="ozv-to-d7M"/>
-                            <constraint firstItem="grh-bR-UnN" firstAttribute="leading" secondItem="0ie-k1-fDj" secondAttribute="leading" constant="16" id="weP-Yd-cyE"/>
+                            <constraint firstItem="grh-bR-UnN" firstAttribute="leading" secondItem="0ie-k1-fDj" secondAttribute="leading" constant="16" id="y7x-ye-Vs8"/>
+                            <constraint firstItem="grh-bR-UnN" firstAttribute="top" secondItem="1UL-Hk-Iye" secondAttribute="bottom" constant="10" id="zd6-W3-57p"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3xs-cV-mjL"/>
@@ -276,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ikf-bt-Nuu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2569" y="60"/>
+            <point key="canvasLocation" x="2567.6923076923076" y="59.715639810426538"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="POs-Cv-zHX">

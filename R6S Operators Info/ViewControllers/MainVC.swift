@@ -67,16 +67,7 @@ class MainVC: UIViewController {
             }
         }
     }
-    
-    @IBAction func attackButtonPressed(_ sender: UIButton) {
-       
-    }
-    
-    @IBAction func defendButtonPressed(_ sender: UIButton) {
-
-    }
-    
-    
+ 
 }
 
 
